@@ -1,0 +1,35 @@
+Algo qui demande un nombre entre 10 et 20
+
+Variable N en entier
+Début
+N <- 0
+TantQue N < 10 ou N > 20
+    Lire N
+        Si N < 10
+            Ecrire "Plus grand !"
+        Si N > 20
+            Ecrire "Plus petit !"
+    FinLire
+FinTantQue
+Fin
+
+
+Algo qui affiche les 10 chiffres suivants à celui entré
+
+Variable N, x en entier
+Début
+Ecrire "Entrez un nombre"
+Lire N
+x <- 0
+TantQue x < 10
+    x++
+    Ecrire N + x
+FinTantQue
+Fin
+
+
+Pareil que le précédent mais avec "Pour"
+Variable N en entier
+Début
+Ecrire "Entrez un nombre"
+Lire N
